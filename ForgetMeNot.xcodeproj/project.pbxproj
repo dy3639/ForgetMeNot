@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CC99ED852F8EAB5600BB0D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC99ED6B2F8EAB5400BB0D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC99ED722F8EAB5400BB0D67;
+			remoteInfo = ForgetMeNot;
+		};
+		CC99ED8F2F8EAB5600BB0D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC99ED6B2F8EAB5400BB0D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC99ED722F8EAB5400BB0D67;
+			remoteInfo = ForgetMeNot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC99ED732F8EAB5400BB0D67 /* ForgetMeNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForgetMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC99ED842F8EAB5600BB0D67 /* ForgetMeNotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgetMeNotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC99ED8E2F8EAB5600BB0D67 /* ForgetMeNotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgetMeNotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CC99ED962F8EAB5600BB0D67 /* Exceptions for "ForgetMeNot" folder in "ForgetMeNot" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CC99ED722F8EAB5400BB0D67 /* ForgetMeNot */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC99ED752F8EAB5400BB0D67 /* ForgetMeNot */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC99ED962F8EAB5600BB0D67 /* Exceptions for "ForgetMeNot" folder in "ForgetMeNot" target */,
+			);
+			path = ForgetMeNot;
+			sourceTree = "<group>";
+		};
+		CC99ED872F8EAB5600BB0D67 /* ForgetMeNotTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ForgetMeNotTests;
+			sourceTree = "<group>";
+		};
+		CC99ED912F8EAB5600BB0D67 /* ForgetMeNotUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ForgetMeNotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC99ED702F8EAB5400BB0D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC99ED812F8EAB5600BB0D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC99ED8B2F8EAB5600BB0D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC99ED6A2F8EAB5400BB0D67 = {
+			isa = PBXGroup;
+			children = (
+				CC99ED752F8EAB5400BB0D67 /* ForgetMeNot */,
+				CC99ED872F8EAB5600BB0D67 /* ForgetMeNotTests */,
+				CC99ED912F8EAB5600BB0D67 /* ForgetMeNotUITests */,
+				CC99ED742F8EAB5400BB0D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC99ED742F8EAB5400BB0D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC99ED732F8EAB5400BB0D67 /* ForgetMeNot.app */,
+				CC99ED842F8EAB5600BB0D67 /* ForgetMeNotTests.xctest */,
+				CC99ED8E2F8EAB5600BB0D67 /* ForgetMeNotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC99ED722F8EAB5400BB0D67 /* ForgetMeNot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC99ED972F8EAB5600BB0D67 /* Build configuration list for PBXNativeTarget "ForgetMeNot" */;
+			buildPhases = (
+				CC99ED6F2F8EAB5400BB0D67 /* Sources */,
+				CC99ED702F8EAB5400BB0D67 /* Frameworks */,
+				CC99ED712F8EAB5400BB0D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC99ED752F8EAB5400BB0D67 /* ForgetMeNot */,
+			);
+			name = ForgetMeNot;
+			packageProductDependencies = (
+			);
+			productName = ForgetMeNot;
+			productReference = CC99ED732F8EAB5400BB0D67 /* ForgetMeNot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC99ED832F8EAB5600BB0D67 /* ForgetMeNotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC99ED9C2F8EAB5600BB0D67 /* Build configuration list for PBXNativeTarget "ForgetMeNotTests" */;
+			buildPhases = (
+				CC99ED802F8EAB5600BB0D67 /* Sources */,
+				CC99ED812F8EAB5600BB0D67 /* Frameworks */,
+				CC99ED822F8EAB5600BB0D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC99ED862F8EAB5600BB0D67 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC99ED872F8EAB5600BB0D67 /* ForgetMeNotTests */,
+			);
+			name = ForgetMeNotTests;
+			packageProductDependencies = (
+			);
+			productName = ForgetMeNotTests;
+			productReference = CC99ED842F8EAB5600BB0D67 /* ForgetMeNotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC99ED8D2F8EAB5600BB0D67 /* ForgetMeNotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC99ED9F2F8EAB5600BB0D67 /* Build configuration list for PBXNativeTarget "ForgetMeNotUITests" */;
+			buildPhases = (
+				CC99ED8A2F8EAB5600BB0D67 /* Sources */,
+				CC99ED8B2F8EAB5600BB0D67 /* Frameworks */,
+				CC99ED8C2F8EAB5600BB0D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC99ED902F8EAB5600BB0D67 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC99ED912F8EAB5600BB0D67 /* ForgetMeNotUITests */,
+			);
+			name = ForgetMeNotUITests;
+			packageProductDependencies = (
+			);
+			productName = ForgetMeNotUITests;
+			productReference = CC99ED8E2F8EAB5600BB0D67 /* ForgetMeNotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC99ED6B2F8EAB5400BB0D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					CC99ED722F8EAB5400BB0D67 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					CC99ED832F8EAB5600BB0D67 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = CC99ED722F8EAB5400BB0D67;
+					};
+					CC99ED8D2F8EAB5600BB0D67 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = CC99ED722F8EAB5400BB0D67;
+					};
+				};
+			};
+			buildConfigurationList = CC99ED6E2F8EAB5400BB0D67 /* Build configuration list for PBXProject "ForgetMeNot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC99ED6A2F8EAB5400BB0D67;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CC99ED742F8EAB5400BB0D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC99ED722F8EAB5400BB0D67 /* ForgetMeNot */,
+				CC99ED832F8EAB5600BB0D67 /* ForgetMeNotTests */,
+				CC99ED8D2F8EAB5600BB0D67 /* ForgetMeNotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC99ED712F8EAB5400BB0D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC99ED822F8EAB5600BB0D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC99ED8C2F8EAB5600BB0D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC99ED6F2F8EAB5400BB0D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC99ED802F8EAB5600BB0D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC99ED8A2F8EAB5600BB0D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC99ED862F8EAB5600BB0D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC99ED722F8EAB5400BB0D67 /* ForgetMeNot */;
+			targetProxy = CC99ED852F8EAB5600BB0D67 /* PBXContainerItemProxy */;
+		};
+		CC99ED902F8EAB5600BB0D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC99ED722F8EAB5400BB0D67 /* ForgetMeNot */;
+			targetProxy = CC99ED8F2F8EAB5600BB0D67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC99ED982F8EAB5600BB0D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForgetMeNot/ForgetMeNot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForgetMeNot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdg.ForgetMeNot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC99ED992F8EAB5600BB0D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForgetMeNot/ForgetMeNot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForgetMeNot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdg.ForgetMeNot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC99ED9A2F8EAB5600BB0D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC99ED9B2F8EAB5600BB0D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC99ED9D2F8EAB5600BB0D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdg.ForgetMeNotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForgetMeNot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForgetMeNot";
+			};
+			name = Debug;
+		};
+		CC99ED9E2F8EAB5600BB0D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdg.ForgetMeNotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForgetMeNot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForgetMeNot";
+			};
+			name = Release;
+		};
+		CC99EDA02F8EAB5600BB0D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdg.ForgetMeNotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForgetMeNot;
+			};
+			name = Debug;
+		};
+		CC99EDA12F8EAB5600BB0D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdg.ForgetMeNotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForgetMeNot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC99ED6E2F8EAB5400BB0D67 /* Build configuration list for PBXProject "ForgetMeNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC99ED9A2F8EAB5600BB0D67 /* Debug */,
+				CC99ED9B2F8EAB5600BB0D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC99ED972F8EAB5600BB0D67 /* Build configuration list for PBXNativeTarget "ForgetMeNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC99ED982F8EAB5600BB0D67 /* Debug */,
+				CC99ED992F8EAB5600BB0D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC99ED9C2F8EAB5600BB0D67 /* Build configuration list for PBXNativeTarget "ForgetMeNotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC99ED9D2F8EAB5600BB0D67 /* Debug */,
+				CC99ED9E2F8EAB5600BB0D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC99ED9F2F8EAB5600BB0D67 /* Build configuration list for PBXNativeTarget "ForgetMeNotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC99EDA02F8EAB5600BB0D67 /* Debug */,
+				CC99EDA12F8EAB5600BB0D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC99ED6B2F8EAB5400BB0D67 /* Project object */;
+}
